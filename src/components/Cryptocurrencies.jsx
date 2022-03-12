@@ -40,12 +40,12 @@ const Cryptocurrencies = ({ simplified }) => {
             <div className=" w-80 rounded-xl  shadow-lg bg-white  hover:bg-yellow-50   max-w-sm " key={currency.uuid}>
               < Link key={currency.uuid} to={`/crypto/${currency.uuid}`}>
 
-                <div className="card-header flex content-center justify-between px-5 pt-4  ">
+                <div className="card-header flex content-center m-4 justify-between px-5  ">
                   <h1 className="text-gray-900 text-2xl font-bold  ">{currency.name}</h1>
                   <img className="crypto-image w-1/6 " src={currency.iconUrl} alt={currency.name} />
                 </div>
 
-                <div className="bg-slate-700  text-slate-100 py-6 text-lg rounded-t-xl rounded-b-xl text-center ">
+                <div className="bg-slate-700 text-slate-100 py-6 text-lg rounded-t-xl rounded-b-xl text-center ">
                   <p>Price:<strong> $ {millify(currency.price)} / Coin</strong></p>
                   <p>Market Cap: $ {millify(currency.marketCap)}</p>
                   <p>Daily Change: {currency.change}%</p>
