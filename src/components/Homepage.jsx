@@ -98,8 +98,7 @@ const Homepage = () => {
 
         <div className="home-heading-container mt-20 ">
           <h1 className="font-extrabold  text-transparent text-2xl bg-clip-text bg-gradient-to-r from-slate-700 to-pink-600 home-title"> Cryptocurrencies News</h1>
-          <a className="bg-pink-500 text-white hover:bg-slate-600 font-bold uppercase text-sm px-4 py-2 rounded shadow hover:shadow-md outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150 ">
-            <Link to="/news" className=" text-slate-50 hover:text-slate-400">Show More</Link>
+          <a href="/news" className="bg-pink-500 text-white hover:bg-slate-600 font-bold uppercase text-sm px-4 py-2 rounded shadow hover:shadow-md outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150 ">
           </a>
         </div>
         <News simplified />
