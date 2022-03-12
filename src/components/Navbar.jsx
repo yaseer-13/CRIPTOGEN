@@ -25,8 +25,8 @@ function Navbar() {
                 >
                   News
                 </a>
-                <a className=" hover:bg-slate-50 text-white px-3 py-2 rounded-md text-sm font-medium" >
-                  Cryptocurrenies
+                <a href="/cryptocurrencies" className=" hover:bg-slate-50 text-white px-3 py-2 rounded-md text-sm font-medium" >
+                  Cryptocurrencies
                 </a>
 
                 {/* </div> */}
