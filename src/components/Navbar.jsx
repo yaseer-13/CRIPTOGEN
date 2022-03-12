@@ -105,18 +105,11 @@ function Navbar() {
                   Cryptocurrencies
                 </a>
 
-
-
-
-
-
-
               </div>
             </div>
           )}
         </Transition>
       </nav>
-
 
     </div>
   );
