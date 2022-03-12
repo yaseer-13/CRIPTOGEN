@@ -1,3 +1,0 @@
-# CRIPTOGEN
-# Criptogen
-# Criptogen
