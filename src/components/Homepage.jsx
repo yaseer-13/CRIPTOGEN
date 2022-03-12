@@ -21,10 +21,10 @@ const Homepage = () => {
           {/* Total Cryptocurrencies */}
           <div className="flex  justify-center">
             <div className="block text-6xl p-5 w-full  hover:bg-slate-100 hover:transition-all rounded-lg shadow-lg bg-white  ">
-              <h1 className="text-gray-900  text-center    leading-tight font-medium mb-2">
+              <h1 className="text-gray-900  text-center leading-tight font-bold mb-2">
                 {globalStats.total}
               </h1>
-              <p className="text-gray-700 text-center   text-sm mb-4">
+              <p className="text-gray-700 text-center text-sm mb-4">
                 Total Cryptocurrencies
               </p>
 
@@ -34,8 +34,8 @@ const Homepage = () => {
           {/* Total Market Cap */}
           <div className="flex justify-center">
             <div className="block text-6xl p-5 w-full  hover:bg-slate-100 hover:transition-all  rounded-lg shadow-lg bg-white  ">
-              <h1 className="text-gray-900  text-center leading-tight font-medium mb-2">
-                {`$${millify(globalStats.totalMarketCap)}`}
+              <h1 className="text-gray-900  text-center leading-tight font-bold mb-2">
+                {`$${millify(globalStats.totalMarketCap)}+`}
               </h1>
               <p className="text-gray-700 text-center text-sm mb-4">
                 Total Market Cap
@@ -47,8 +47,8 @@ const Homepage = () => {
           {/* Total  24Hrs Volume */}
           <div className="flex justify-center">
             <div className="block text-6xl p-5 w-full  hover:bg-slate-100 hover:transition-all   rounded-lg shadow-lg bg-white  ">
-              <h1 className="text-gray-900  text-center leading-tight font-medium mb-2">
-                {`$${millify(globalStats.total24hVolume)}`}
+              <h1 className="text-gray-900  text-center leading-tight font-bold mb-2">
+                {`$${millify(globalStats.total24hVolume)}+`}
               </h1>
               <p className="text-gray-700 text-center text-sm mb-4">
                 Total  24Hrs Volume
@@ -60,7 +60,7 @@ const Homepage = () => {
           {/* Total Markets */}
           <div className="flex justify-center">
             <div className="block text-6xl p-5 w-full  hover:bg-slate-100 hover:transition-all  rounded-lg shadow-lg bg-white  ">
-              <h1 className="text-gray-900  text-center leading-tight font-medium mb-2">
+              <h1 className="text-gray-900  text-center leading-tight font-bold mb-2">
                 {(globalStats.totalMarkets)}
               </h1>
               <p className="text-gray-700 text-center text-sm mb-4">
@@ -73,7 +73,7 @@ const Homepage = () => {
           {/* Total Exchanges */}
           <div className="flex justify-center">
             <div className="block text-6xl p-5 w-full  hover:bg-slate-100 hover:transition-all  rounded-lg shadow-lg bg-white  ">
-              <h1 className="text-gray-900  text-center  leading-tight font-medium mb-2">
+              <h1 className="text-gray-900  text-center font-bold  leading-tight mb-2">
                 {millify(globalStats.totalExchanges)}
               </h1>
               <p className="text-gray-700 text-center text-sm  mb-4">
